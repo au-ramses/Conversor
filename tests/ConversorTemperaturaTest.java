@@ -19,11 +19,6 @@ public class ConversorTemperaturaTest {
 	}
 	
 	@Test
-	public void celsiusParaFahrenheitIntTest(){
-		assertEquals(104, novoConversor.celsiusParaFahrenheit());
-	}
-	
-	@Test
 	public void celsiusParaFahrenheitDoubleTest() {
 		assertEquals(80.6, novoConversor.celsiusParaFahrenheit(27.00),0.1);	
 	}
